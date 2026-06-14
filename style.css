@@ -1,0 +1,119 @@
+/* Reset */
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+/* Page */
+body{
+
+  display:flex;
+
+  justify-content:center;
+
+  align-items:center;
+
+  min-height:100vh;
+
+  background:#f4f4f4;
+
+  font-family:Arial,sans-serif;
+}
+
+/* Card */
+.login-card{
+
+  background:white;
+
+  padding:30px;
+
+  width:350px;
+
+  border-radius:12px;
+
+  box-shadow:0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+h2{
+
+  text-align:center;
+
+  margin-bottom:20px;
+}
+
+/* Form */
+form{
+
+  display:flex;
+
+  flex-direction:column;
+}
+
+/* Labels */
+label{
+
+  margin-bottom:6px;
+
+  font-weight:bold;
+}
+
+/* Inputs */
+input{
+
+  padding:12px;
+
+  margin-bottom:15px;
+
+  border:1px solid #ccc;
+
+  border-radius:8px;
+}
+
+/* Password Wrapper */
+.password-container{
+
+  display:flex;
+
+  gap:10px;
+}
+
+/* Toggle Button */
+#togglePassword{
+
+  border:none;
+
+  background:#2563eb;
+
+  color:white;
+
+  padding:0 15px;
+
+  border-radius:8px;
+
+  cursor:pointer;
+}
+
+/* Login Button */
+.login-btn{
+
+  border:none;
+
+  padding:12px;
+
+  border-radius:8px;
+
+  background:#2563eb;
+
+  color:white;
+
+  cursor:pointer;
+
+  transition:0.3s;
+}
+
+.login-btn:hover{
+
+  background:#1d4ed8;
+}
